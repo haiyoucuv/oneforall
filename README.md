@@ -1,10 +1,10 @@
-# One For All
+# make2d
 
 Game FrameWork for JavaScript 2D WebGL Canvas Games
 
 ## Demo SandBox
 
-Check out the [demo sandbox](https://jackie-aniki.github.io/oneforall/demo/?fps&debug) to see below code in action.
+Check out the [demo sandbox](https://jackie-aniki.github.io/make2d/demo/?fps&debug) to see below code in action.
 
 ## Demo Structure
 
@@ -49,12 +49,12 @@ Check out the [demo sandbox](https://jackie-aniki.github.io/oneforall/demo/?fps&
 ## Installation
 
 ```bash
-yarn add -D @pietal.dev/engine
+yarn add -D make2d
 ```
 
 ## API Docs
 
-Here is the in-depth [api documentation](https://jackie-aniki.github.io/oneforall/modules.html) easy to browse.
+Here is the in-depth [api documentation](https://jackie-aniki.github.io/make2d/modules.html) easy to browse.
 
 ## Demo Code
 

@@ -1,7 +1,7 @@
 {
-  "name": "@pietal.dev/engine",
+  "name": "make2d",
   "description": "Game FrameWork for JavaScript 2D WebGL Canvas Games",
-  "version": "9.36.0",
+  "version": "9.37.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -89,9 +89,9 @@
     "webgl",
     "pixi.js"
   ],
-  "repository": "git://github.com/Prozi/oneforall.git",
+  "repository": "git://github.com/Jackie-Aniki/make2d.git",
   "bugs": {
-    "url": "https://github.com/Prozi/oneforall/issues"
+    "url": "https://github.com/Jackie-Aniki/make2d/issues"
   },
-  "homepage": "https://prozi.github.io/oneforall/"
+  "homepage": "https://jackie-aniki.github.io/make2d/"
 }
