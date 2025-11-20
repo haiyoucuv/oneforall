@@ -4,9 +4,9 @@ Game FrameWork for JavaScript 2D WebGL Games. Unity-inspired architecture: GameO
 
 ## Why use this?
 
-After making countless indie games, dozens made in html5 webgl, I like to have in a game frame-work:
+After making countless indie games, dozens made in html5 webgl, I like to have in such:
 1. efficient and mobile friendly drawing ✔️ (pixi)
-2. lifecycle management - expained below ✔️ (rxjs)
+2. lifecycle management - expained below ✔️
 3. efficient collision detection or physics ✔️ (check2d)
 
 ## Lifecycle management
@@ -16,8 +16,10 @@ After making countless indie games, dozens made in html5 webgl, I like to have i
 * Let's take almost any entity in a game in any game, most likely it has some stuff attached in this hierarchy (a home might have some chairs, a tank might have a driver and ammunition, etc.)
 
 So here, all classes of this framework implement `abstract class Lifecycle`.
-When a Lifecycle is destroyed, it emits and closes `destroy$` subject.
+When a Lifecycle is destroyed, it emits and closes `destroy$` event subject.
 Along with destroying his children, which in turn behave the same.
+To destroy an entity just call `destroy()`.
+All Lifecycles also have `update$` event subject to which you may also subcribe to add your logic.
 
 ## Usage
 
