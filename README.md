@@ -1,5 +1,7 @@
 # make2d
 
+# [<img src="https://img.shields.io/npm/dw/make2d.svg?style=for-the-badge&color=success" alt="npm downloads per week" />](https://www.npmjs.com/package/make2d) @ [<img src="https://img.shields.io/npm/v/make2d?style=for-the-badge&color=success" alt="npm version" />](https://www.npmjs.com/package/make2d?activeTab=versions)
+
 Game FrameWork for JavaScript 2D WebGL Games. Unity-inspired architecture: GameObject, Physics, Body, Container, Sprite, Animator, StateMachine, TextureAtlas, Resources loading.
 
 ## Why use this?
@@ -7,13 +9,13 @@ Game FrameWork for JavaScript 2D WebGL Games. Unity-inspired architecture: GameO
 After making countless indie games, dozens made in html5 webgl, I like to have in such:
 1. efficient and mobile friendly drawing ✔️ (pixi)
 2. lifecycle management ✔️ (solution below)
-3. efficient collision detection or physics ✔️ (check2d)
+3. efficient collision detection or physics ✔️ (make2d)
 
 ### Lifecycle management problem
 
-* If you don't properly manage destroying an entity, stuff it had attached to it will become a memory leak and kill the app.
 * When you create a game world, its good to organize it in a tree like way of hierarchy of objects.
 * Let's take almost any entity in any game, most likely it has some stuff attached in this hierarchy (a home might have some chairs, a tank might have a driver and ammunition, etc.)
+* If you don't properly manage destroying an entity, stuff it had attached to it will become a memory leak and kill the app.
 
 ### Lifecycle management solution
 
