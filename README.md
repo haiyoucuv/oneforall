@@ -13,7 +13,7 @@ After making countless indie games, dozens made in html5 webgl, I like to have i
 
 * If you don't properly manage destroying an entity, stuff it had attached to it will become a memory leak and kill the app.
 * When you create a game world, its good to organize it in a tree like way of hierarchy of objects.
-* Let's take almost any entity in a game in any game, most likely it has some stuff attached in this hierarchy (a home might have some chairs, a tank might have a driver and ammunition, etc.)
+* Let's take almost any entity in any game, most likely it has some stuff attached in this hierarchy (a home might have some chairs, a tank might have a driver and ammunition, etc.)
 
 So here, all classes of this framework implement `abstract class Lifecycle`.
 When a Lifecycle is destroyed, it emits and closes `destroy$` event subject.
